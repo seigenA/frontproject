@@ -1,0 +1,73 @@
+.item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #fff;
+	border-radius: 8px;
+	padding: 12px 16px;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+	transition: transform 0.2s, box-shadow 0.2s;
+}
+
+	.item:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+	}
+
+.itemDone {
+	opacity: 0.8;
+	text-decoration: line-through;
+}
+
+.itemInProgress {
+}
+
+.text {
+	font-size: 1rem;
+	color: #333;
+	margin-right: 10px;
+	flex: 1;
+}
+
+.editInput {
+	flex: 1;
+	font-size: 1rem;
+	padding: 8px;
+	border: 2px solid #ff6f91;
+	border-radius: 6px;
+	outline: none;
+	margin-right: 10px;
+}
+
+.controls {
+	display: flex;
+	gap: 8px;
+}
+
+.btn {
+	background-color: #ff6f91;
+	color: #fff;
+	border: none;
+	padding: 8px 14px;
+	border-radius: 6px;
+	cursor: pointer;
+	font-weight: 600;
+	transition: background-color 0.3s, transform 0.2s;
+}
+
+	.btn:hover {
+		background-color: #ff477e;
+		transform: translateY(-2px);
+	}
+
+	.btn:active {
+		transform: translateY(1px);
+	}
+
+.removeBtn {
+	background-color: #ff4d4d;
+}
+
+	.removeBtn:hover {
+		background-color: #e60000;
+	}

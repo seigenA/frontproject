@@ -1,0 +1,49 @@
+.managerContainer {
+    background: rgba(255,255,255,0.3);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.title {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+/* Поиск / фильтр */
+.filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.searchInput {
+    flex: 1;
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+    .searchInput:focus {
+        border-color: #ff6f91;
+    }
+
+.selectFilter {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    outline: none;
+    background: #fff;
+    transition: border-color 0.2s ease;
+}
+
+    .selectFilter:focus {
+        border-color: #ff6f91;
+    }

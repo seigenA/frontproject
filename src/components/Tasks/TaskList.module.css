@@ -1,0 +1,12 @@
+.listContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.emptyList {
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    margin-top: 20px;
+}

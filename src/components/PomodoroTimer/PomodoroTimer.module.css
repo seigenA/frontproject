@@ -1,0 +1,60 @@
+.container {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.sessionName {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.timeDisplay {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 20px 0;
+    color: #222;
+    background: #fff;
+    border-radius: 12px;
+    display: inline-block;
+    width: 140px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+    .timeDisplay:hover {
+        transform: scale(1.05);
+    }
+
+.controls {
+    margin-bottom: 10px;
+}
+
+.btn {
+    background: #ff6f91;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    margin: 0 8px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+    .btn:hover {
+        background: #ff457a;
+        transform: translateY(-2px);
+    }
+
+    .btn:active {
+        transform: translateY(1px);
+    }
+
+.info {
+    color: #eee;
+    font-size: 0.85rem;
+    font-style: italic;
+}

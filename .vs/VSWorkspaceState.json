@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\Header",
+    "\\src\\components\\PomodoroTimer",
+    "\\src\\components\\Tasks"
   ],
-  "SelectedNode": "\\src\\App.js",
+  "SelectedNode": "\\src\\components\\PomodoroTimer\\PomodoroTimer.js",
   "PreviewInSolutionExplorer": false
 }
